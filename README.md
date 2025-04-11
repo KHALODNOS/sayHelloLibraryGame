@@ -10,6 +10,10 @@ Run the following command:
 pip install -e <filepath>
 Replace <filepath> with the path to the downloaded folder.
 
-## run in a project:
+```python
+# save this as app.py
 import welcomelib
+
 welcomelib.say_welcome()
+
+
